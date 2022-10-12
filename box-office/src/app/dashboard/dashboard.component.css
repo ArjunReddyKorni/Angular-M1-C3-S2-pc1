@@ -1,0 +1,35 @@
+#ids{
+    font-size:30px;
+    color: white;
+    font-weight:bolder;
+    margin-left: 500px;
+}
+#gap{
+    margin-right: 9px;
+}
+span{
+    color: white;
+}
+#cards{
+    background-color: black;
+    /* margin-right: 250px; */
+}
+img{
+    border-radius: 5px;
+}button{
+    background-color: rgb(213, 66, 66);
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+}
+input{
+    border: none;
+    border-radius: 5px;
+    padding: 5px 0px;
+    margin: 0px 5px 5px 5px;
+}
+#pri{
+    margin-left: 9px;
+    border: 2px solid rgb(213, 66, 66);
+    border-radius: 5px;
+    padding: 20px 40px 20px 40px;
+}

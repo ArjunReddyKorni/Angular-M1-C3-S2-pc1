@@ -1,0 +1,29 @@
+<span id="ids">Trending Movies</span>
+<br /><br>
+<span id="pri"
+  ><input type="text" placeholder="search movie" [(ngModel)]="searchText" />
+  <button (click)="search()" type="button">Go</button>
+  <button (click)="reset()" type="button">Reset</button>
+  </span><br>
+
+<div class="container">
+  <div class="row">
+    <div *ngFor="let movie of movies" class="card m-4 col-lg-3" id="cards">
+      <img
+        src="../../assets/resources/{{ movie.movieTitle }}.jpg"
+        height="200px"
+        width="300px"
+      />
+      <span
+        ><img src="../../assets/resources/rating.jpg" id="gap" />{{
+          movie.rating
+        }}</span
+      >
+      <span
+        ><span id="gap">{{ movie.movieTitle }}</span
+        ><span id="gap"> {{ movie.genre }}</span
+        ><span id="gap">{{ movie.yearOfRelease }}</span>
+      </span>
+    </div>
+  </div>
+</div>
